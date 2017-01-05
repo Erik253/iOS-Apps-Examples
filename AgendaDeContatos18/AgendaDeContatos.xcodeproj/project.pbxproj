@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E269B421DC53E0C00DBCA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B411DC53E0C00DBCA1B /* main.m */; };
+		1E269B451DC53E0C00DBCA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B441DC53E0C00DBCA1B /* AppDelegate.m */; };
+		1E269B481DC53E0C00DBCA1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B471DC53E0C00DBCA1B /* ViewController.m */; };
+		1E269B4B1DC53E0C00DBCA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E269B491DC53E0C00DBCA1B /* Main.storyboard */; };
+		1E269B4E1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B4C1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodeld */; };
+		1E269B501DC53E0D00DBCA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E269B4F1DC53E0D00DBCA1B /* Assets.xcassets */; };
+		1E269B531DC53E0D00DBCA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E269B511DC53E0D00DBCA1B /* LaunchScreen.storyboard */; };
+		1E269B5E1DC53E0D00DBCA1B /* AgendaDeContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B5D1DC53E0D00DBCA1B /* AgendaDeContatosTests.m */; };
+		1E269B691DC53E0E00DBCA1B /* AgendaDeContatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E269B681DC53E0E00DBCA1B /* AgendaDeContatosUITests.m */; };
+		1E761FFF1DCFB90C00A74164 /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E761FFE1DCFB90C00A74164 /* ContatoDao.m */; };
+		1E8A242A1DC66CA10033E924 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A24291DC66CA10033E924 /* Contato.m */; };
+		1E8A24301DC68E160033E924 /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A242F1DC68E160033E924 /* ListaContatosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E269B5A1DC53E0D00DBCA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E269B351DC53E0A00DBCA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E269B3C1DC53E0A00DBCA1B;
+			remoteInfo = AgendaDeContatos;
+		};
+		1E269B651DC53E0D00DBCA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E269B351DC53E0A00DBCA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E269B3C1DC53E0A00DBCA1B;
+			remoteInfo = AgendaDeContatos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E269B3D1DC53E0C00DBCA1B /* AgendaDeContatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaDeContatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E269B411DC53E0C00DBCA1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E269B431DC53E0C00DBCA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E269B441DC53E0C00DBCA1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E269B461DC53E0C00DBCA1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E269B471DC53E0C00DBCA1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E269B4A1DC53E0C00DBCA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E269B4D1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgendaDeContatos.xcdatamodel; sourceTree = "<group>"; };
+		1E269B4F1DC53E0D00DBCA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E269B521DC53E0D00DBCA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E269B541DC53E0D00DBCA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E269B591DC53E0D00DBCA1B /* AgendaDeContatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaDeContatosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E269B5D1DC53E0D00DBCA1B /* AgendaDeContatosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaDeContatosTests.m; sourceTree = "<group>"; };
+		1E269B5F1DC53E0D00DBCA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E269B641DC53E0D00DBCA1B /* AgendaDeContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaDeContatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E269B681DC53E0E00DBCA1B /* AgendaDeContatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaDeContatosUITests.m; sourceTree = "<group>"; };
+		1E269B6A1DC53E0E00DBCA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E761FFD1DCFB90C00A74164 /* ContatoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
+		1E761FFE1DCFB90C00A74164 /* ContatoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoDao.m; sourceTree = "<group>"; };
+		1E8A24281DC66CA10033E924 /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		1E8A24291DC66CA10033E924 /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		1E8A242E1DC68E160033E924 /* ListaContatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; };
+		1E8A242F1DC68E160033E924 /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E269B3A1DC53E0A00DBCA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B561DC53E0D00DBCA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B611DC53E0D00DBCA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E269B341DC53E0900DBCA1B = {
+			isa = PBXGroup;
+			children = (
+				1E269B3F1DC53E0C00DBCA1B /* AgendaDeContatos */,
+				1E269B5C1DC53E0D00DBCA1B /* AgendaDeContatosTests */,
+				1E269B671DC53E0D00DBCA1B /* AgendaDeContatosUITests */,
+				1E269B3E1DC53E0C00DBCA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E269B3E1DC53E0C00DBCA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E269B3D1DC53E0C00DBCA1B /* AgendaDeContatos.app */,
+				1E269B591DC53E0D00DBCA1B /* AgendaDeContatosTests.xctest */,
+				1E269B641DC53E0D00DBCA1B /* AgendaDeContatosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E269B3F1DC53E0C00DBCA1B /* AgendaDeContatos */ = {
+			isa = PBXGroup;
+			children = (
+				1E269B431DC53E0C00DBCA1B /* AppDelegate.h */,
+				1E269B441DC53E0C00DBCA1B /* AppDelegate.m */,
+				1E8A242E1DC68E160033E924 /* ListaContatosViewController.h */,
+				1E8A242F1DC68E160033E924 /* ListaContatosViewController.m */,
+				1E269B461DC53E0C00DBCA1B /* ViewController.h */,
+				1E269B471DC53E0C00DBCA1B /* ViewController.m */,
+				1E8A24281DC66CA10033E924 /* Contato.h */,
+				1E8A24291DC66CA10033E924 /* Contato.m */,
+				1E761FFD1DCFB90C00A74164 /* ContatoDao.h */,
+				1E761FFE1DCFB90C00A74164 /* ContatoDao.m */,
+				1E269B491DC53E0C00DBCA1B /* Main.storyboard */,
+				1E269B4F1DC53E0D00DBCA1B /* Assets.xcassets */,
+				1E269B511DC53E0D00DBCA1B /* LaunchScreen.storyboard */,
+				1E269B541DC53E0D00DBCA1B /* Info.plist */,
+				1E269B4C1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodeld */,
+				1E269B401DC53E0C00DBCA1B /* Supporting Files */,
+			);
+			path = AgendaDeContatos;
+			sourceTree = "<group>";
+		};
+		1E269B401DC53E0C00DBCA1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E269B411DC53E0C00DBCA1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E269B5C1DC53E0D00DBCA1B /* AgendaDeContatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E269B5D1DC53E0D00DBCA1B /* AgendaDeContatosTests.m */,
+				1E269B5F1DC53E0D00DBCA1B /* Info.plist */,
+			);
+			path = AgendaDeContatosTests;
+			sourceTree = "<group>";
+		};
+		1E269B671DC53E0D00DBCA1B /* AgendaDeContatosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E269B681DC53E0E00DBCA1B /* AgendaDeContatosUITests.m */,
+				1E269B6A1DC53E0E00DBCA1B /* Info.plist */,
+			);
+			path = AgendaDeContatosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E269B3C1DC53E0A00DBCA1B /* AgendaDeContatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E269B6D1DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatos" */;
+			buildPhases = (
+				1E269B391DC53E0A00DBCA1B /* Sources */,
+				1E269B3A1DC53E0A00DBCA1B /* Frameworks */,
+				1E269B3B1DC53E0A00DBCA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgendaDeContatos;
+			productName = AgendaDeContatos;
+			productReference = 1E269B3D1DC53E0C00DBCA1B /* AgendaDeContatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E269B581DC53E0D00DBCA1B /* AgendaDeContatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E269B701DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatosTests" */;
+			buildPhases = (
+				1E269B551DC53E0D00DBCA1B /* Sources */,
+				1E269B561DC53E0D00DBCA1B /* Frameworks */,
+				1E269B571DC53E0D00DBCA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E269B5B1DC53E0D00DBCA1B /* PBXTargetDependency */,
+			);
+			name = AgendaDeContatosTests;
+			productName = AgendaDeContatosTests;
+			productReference = 1E269B591DC53E0D00DBCA1B /* AgendaDeContatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E269B631DC53E0D00DBCA1B /* AgendaDeContatosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E269B731DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatosUITests" */;
+			buildPhases = (
+				1E269B601DC53E0D00DBCA1B /* Sources */,
+				1E269B611DC53E0D00DBCA1B /* Frameworks */,
+				1E269B621DC53E0D00DBCA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E269B661DC53E0D00DBCA1B /* PBXTargetDependency */,
+			);
+			name = AgendaDeContatosUITests;
+			productName = AgendaDeContatosUITests;
+			productReference = 1E269B641DC53E0D00DBCA1B /* AgendaDeContatosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E269B351DC53E0A00DBCA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Erik;
+				TargetAttributes = {
+					1E269B3C1DC53E0A00DBCA1B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1E269B581DC53E0D00DBCA1B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E269B3C1DC53E0A00DBCA1B;
+					};
+					1E269B631DC53E0D00DBCA1B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E269B3C1DC53E0A00DBCA1B;
+					};
+				};
+			};
+			buildConfigurationList = 1E269B381DC53E0A00DBCA1B /* Build configuration list for PBXProject "AgendaDeContatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E269B341DC53E0900DBCA1B;
+			productRefGroup = 1E269B3E1DC53E0C00DBCA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E269B3C1DC53E0A00DBCA1B /* AgendaDeContatos */,
+				1E269B581DC53E0D00DBCA1B /* AgendaDeContatosTests */,
+				1E269B631DC53E0D00DBCA1B /* AgendaDeContatosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E269B3B1DC53E0A00DBCA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E269B531DC53E0D00DBCA1B /* LaunchScreen.storyboard in Resources */,
+				1E269B501DC53E0D00DBCA1B /* Assets.xcassets in Resources */,
+				1E269B4B1DC53E0C00DBCA1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B571DC53E0D00DBCA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B621DC53E0D00DBCA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E269B391DC53E0A00DBCA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E761FFF1DCFB90C00A74164 /* ContatoDao.m in Sources */,
+				1E8A242A1DC66CA10033E924 /* Contato.m in Sources */,
+				1E8A24301DC68E160033E924 /* ListaContatosViewController.m in Sources */,
+				1E269B481DC53E0C00DBCA1B /* ViewController.m in Sources */,
+				1E269B4E1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodeld in Sources */,
+				1E269B451DC53E0C00DBCA1B /* AppDelegate.m in Sources */,
+				1E269B421DC53E0C00DBCA1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B551DC53E0D00DBCA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E269B5E1DC53E0D00DBCA1B /* AgendaDeContatosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E269B601DC53E0D00DBCA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E269B691DC53E0E00DBCA1B /* AgendaDeContatosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E269B5B1DC53E0D00DBCA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E269B3C1DC53E0A00DBCA1B /* AgendaDeContatos */;
+			targetProxy = 1E269B5A1DC53E0D00DBCA1B /* PBXContainerItemProxy */;
+		};
+		1E269B661DC53E0D00DBCA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E269B3C1DC53E0A00DBCA1B /* AgendaDeContatos */;
+			targetProxy = 1E269B651DC53E0D00DBCA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E269B491DC53E0C00DBCA1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E269B4A1DC53E0C00DBCA1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E269B511DC53E0D00DBCA1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E269B521DC53E0D00DBCA1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E269B6B1DC53E0E00DBCA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E269B6C1DC53E0E00DBCA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E269B6E1DC53E0E00DBCA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgendaDeContatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E269B6F1DC53E0E00DBCA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgendaDeContatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E269B711DC53E0E00DBCA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AgendaDeContatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgendaDeContatos.app/AgendaDeContatos";
+			};
+			name = Debug;
+		};
+		1E269B721DC53E0E00DBCA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AgendaDeContatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgendaDeContatos.app/AgendaDeContatos";
+			};
+			name = Release;
+		};
+		1E269B741DC53E0E00DBCA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AgendaDeContatosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AgendaDeContatos;
+			};
+			name = Debug;
+		};
+		1E269B751DC53E0E00DBCA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AgendaDeContatosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserik.AgendaDeContatos.AgendaDeContatosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AgendaDeContatos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E269B381DC53E0A00DBCA1B /* Build configuration list for PBXProject "AgendaDeContatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E269B6B1DC53E0E00DBCA1B /* Debug */,
+				1E269B6C1DC53E0E00DBCA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E269B6D1DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E269B6E1DC53E0E00DBCA1B /* Debug */,
+				1E269B6F1DC53E0E00DBCA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E269B701DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E269B711DC53E0E00DBCA1B /* Debug */,
+				1E269B721DC53E0E00DBCA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E269B731DC53E0E00DBCA1B /* Build configuration list for PBXNativeTarget "AgendaDeContatosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E269B741DC53E0E00DBCA1B /* Debug */,
+				1E269B751DC53E0E00DBCA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E269B4C1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E269B4D1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodel */,
+			);
+			currentVersion = 1E269B4D1DC53E0D00DBCA1B /* AgendaDeContatos.xcdatamodel */;
+			path = AgendaDeContatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E269B351DC53E0A00DBCA1B /* Project object */;
+}
